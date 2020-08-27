@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+}
+
+.top{
+    background-color: #535D69;
+}
+
+.bellow{
+    background-color: white;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-right {
+    float: left;
+    width: 30%;
+    background-color: #535D69;
+    color: white;
+}
+
+.top-left {
+    float: right;
+    width: 65%;
+    display: flex;
+}
+
+.icon{
+    width: 75%;
+}
+
+.icon ul{
+
+}
+
+.icon ul li{
+    list-style-type: none;
+    padding-right: 5%;
+}
+
+.icon ul li a{
+    text-decoration: none;
+    padding: 0px 3%;
+    color: white;
+    float: right;
+}
+
+.login{
+    width: 20%;
+    background-color: #BD233F;
+    text-align: center;
+}
+.login p{
+    color: white;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    width: 75%;
+    float: right;
+}
+
+.menu ul{
+    margin-top: 27px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #535D69;
+    padding: 15px 14px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner{
+    background:linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: top center;
+}
+
+.b-content{
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.b-content h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin: 0 0 25px 0;
+}
+
+.b-content p{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.b-content button{
+    width: 260px;
+    height: 35px;
+    color: white;
+    background-color: #BD233F;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.b-content button:focus{
+   outline: 0;
+}
+
+.how-it-works{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.part-one{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.part-one h2{
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+}
+
+.part-one p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #808b99;
+    line-height: 23px;
+}
+
+.part-two{
+    margin-top: 100px;
+}
+
+.item{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding: 0px 0.07%;
+    margin: 0px 1.5%;
+}
+
+.item img{
+    width: 60%;
+}
+
+.item p{
+    font-size: 20px;
+    color: #535D69;
+    font-weight: bold;
+}
+
+.learn-how{
+    margin-top: 250px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.learn{
+    width: 45%;
+    float: left;
+}
+
+.learn h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+.learn p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #808b99;
+    line-height: 23px;
+    margin: 0 0 15px 0;
+}
+
+.learn button{
+    width: 130px;
+    height: 35px;
+    color: white;
+    background-color: #BD233F;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.video{
+    width: 45%;
+    float: right;
+}
+
+.video iframe{
+    width: 80%;
+    height: 227px;
+    padding-left: 20%;
+}
+
+.features{
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.features-items{
+    overflow: hidden;
+}
+
+.content {
+    margin: 30px 0 0 0;
+}
+
+.f-item{
+    width: 29.5%;
+    height: 280px;
+    margin: 20px 20px 15px 20px;
+    float: left;
+    box-shadow: 0 0 5px rgb(177, 171, 171);
+    text-align: center;
+}
+
+.f-item img{
+    width: 80px;
+    height: 80px;
+}
+
+.see-btn{
+    width: 20%;
+    height: 35px;
+    margin: 0 0 100px 40%;
+    box-shadow: 0 0 20px rgb(177, 171, 171);
+    cursor: pointer;
+    color: #BD233F;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.foot{
+    background-color: #535D69;
+}
+
+.foot-below p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
