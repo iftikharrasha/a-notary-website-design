@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -55,13 +55,23 @@ header{
     float: right;
 }
 
+.icon ul li a:hover{
+    color: red;
+}
+
 .login{
     width: 20%;
     background-color: #BD233F;
     text-align: center;
 }
+
 .login p{
     color: white;
+    cursor: pointer;
+}
+
+.login p:hover{
+    font-weight: 700;
 }
 
 .logo {
@@ -79,7 +89,7 @@ header{
 }
 
 .menu ul{
-    margin-top: 27px;
+    margin-top: 21px;
 }
 
 .menu ul li{
@@ -90,9 +100,14 @@ header{
 .menu ul li a{
     text-decoration: none;
     color: #535D69;
-    padding: 15px 14px;
-    font-size: 14px;
+    padding: 10px 8px;
+    font-size: 12px;
     font-weight: 700;
+    border: 1px solid transparent;
+}
+
+.menu ul li a:hover{
+    color: red;
 }
 
 .banner{
@@ -111,15 +126,15 @@ header{
 }
 
 .b-content h1{
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 700;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     margin: 0 0 25px 0;
 }
 
 .b-content p{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     color: white;
     margin: 0 0 15px 0;
@@ -133,6 +148,10 @@ header{
     text-transform: uppercase;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.b-content button:hover{
+    font-weight: 700;
 }
 
 .b-content button:focus{
@@ -161,6 +180,7 @@ header{
     font-weight: bold;
     color: #808b99;
     line-height: 23px;
+
 }
 
 .part-two{
@@ -176,11 +196,11 @@ header{
 }
 
 .item img{
-    width: 60%;
+    width: 50%;
 }
 
 .item p{
-    font-size: 20px;
+    font-size: 16px;
     color: #535D69;
     font-weight: bold;
 }
@@ -197,7 +217,7 @@ header{
 }
 
 .learn h2{
-    font-size: 26px;
+    font-size: 24px;
     text-transform: uppercase;
     margin: 0 0 30px 0;
 }
@@ -218,6 +238,11 @@ header{
     text-transform: uppercase;
     margin-top: 20px;
     cursor: pointer;
+    border: none;
+}
+
+.learn button:hover{
+    font-weight: 700;
 }
 
 .video{
@@ -243,13 +268,25 @@ header{
     margin: 30px 0 0 0;
 }
 
+.content p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #808b99;
+    line-height: 23px;
+}
+
 .f-item{
     width: 29.5%;
     height: 280px;
-    margin: 20px 20px 15px 20px;
+    margin: 20px 18px 15px 18px;
     float: left;
     text-align: center;
 }
+
+.f-item:hover{
+    box-shadow: 0 0 10px rgb(177, 171, 171);
+}
+
 
 .f-item img{
     width: 80px;
@@ -266,6 +303,10 @@ header{
     font-size: 14px;
     font-weight: 700;
     border: none;
+}
+
+.see-btn:hover{
+    color: black;
 }
 
 .foot-top{
@@ -318,7 +359,9 @@ header{
     background-color: #535D69;
 }
 
-span{
+
+span a{
+    text-decoration: none;
     color: orange;
 }
 
